@@ -1,0 +1,19 @@
+{
+  "name": "Open Note",
+  "description": "An open note book!",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "app": {
+    "urls": [
+      "*://rc.pcy.io/note/run/"
+    ],
+    "launch": {
+      "web_url": "http://rc.pcy.io/note/run/",
+      "container": "panel"
+    }
+  },
+  "icons": {
+    "16": "icon.ico",
+    "128": "icon.ico"
+  }
+}
