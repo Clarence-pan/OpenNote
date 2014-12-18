@@ -5,10 +5,10 @@
   "version": "0.0.1",
   "app": {
     "urls": [
-      "*://rc.pcy.io/note/run/"
+      "*://121.40.16.1/note/run/"
     ],
     "launch": {
-      "web_url": "http://rc.pcy.io/note/run/",
+      "web_url": "http://121.40.16.1/note/run/",
       "container": "panel"
     }
   },
