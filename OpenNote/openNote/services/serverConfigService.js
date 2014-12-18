@@ -57,7 +57,7 @@ openNote.service("serverConfigService", function ($http, $q, config, userService
 					
 					//extraPlugins				:	"imagepaste",
 					
-					height 						: 	"400px",
+					height 						: 	Math.max(400, ($(window).height() - 290)) + 'px',//'80vh',//"400px",
 					disableNativeSpellChecker 	: 	false
 				};
 				

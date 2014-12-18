@@ -27,15 +27,17 @@ openNote.value("config", {
 	/**
 	 * Used to compute randome short fade speed
 	 */
-	fadeSpeedShort: function(){ 
-		return 250*Math.random()+200;
+	fadeSpeedShort: function(){
+        return 100;
+//		return 250*Math.random()+200;
 	},
 	
 	/**
 	 * Used to compute randome long fade speed
 	 */
 	fadeSpeedLong: function(){
-		return 2000*Math.random()+200;
+        return 200;
+//		return 2000*Math.random()+200;
 	},
 	
 	/**

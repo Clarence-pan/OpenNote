@@ -3,24 +3,27 @@
 	<div id="search" class="box big search">
 		<form>
 			<div class="form-group">
-				<label>Folders and notes</label>
-				<select ng-model = "searchRequest.type" class="form-control">
+				<label>Folders and notes:
+					<select ng-model = "searchRequest.type" class="form-control">
 					<option>Both</option>
 					<option>Notes</option>
 					<option>Folders</option>
-				</select>
+					</select>
+				</label>
+
 			</div>
 			<div class="form-group">
-				<label>Title and body</label>
+				<label>Title and body:
 				<select ng-model = "searchRequest.field" class="form-control">
 					<option>Both</option>
 					<option>Title</option>
 					<option>Body</option>
 				</select>
+				</label>
 			</div>
 			<div class="form-group">
-				<label>Value</label>
-				<input ng-model = "searchRequest.search" type="text" class="form-control"/>
+				<label>Value:<input ng-model = "searchRequest.search" type="text" class="form-control"/></label>
+
 			</div>
 
 			<div class="form-group">

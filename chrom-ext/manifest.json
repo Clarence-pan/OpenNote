@@ -1,0 +1,19 @@
+{
+  "name": "Open Note",
+  "description": "An open note book!",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "app": {
+    "urls": [
+      "*://121.40.16.1/note/run/"
+    ],
+    "launch": {
+      "web_url": "http://121.40.16.1/note/run/",
+      "container": "panel"
+    }
+  },
+  "icons": {
+    "16": "icon.ico",
+    "128": "icon.ico"
+  }
+}

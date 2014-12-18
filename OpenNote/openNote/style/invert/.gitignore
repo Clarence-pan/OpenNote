@@ -1,6 +1,6 @@
 #Ignore everything
-*
+#*
 
 #Except
-!*.less
-!.gitignore
+#!*.less
+#!.gitignore

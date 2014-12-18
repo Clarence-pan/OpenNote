@@ -9,15 +9,17 @@
 	</div>
 </div>
 <div class="navbar-collapse collapse noShadow">	 
-	<ul class="nav navbar-nav navbar-right">
+	<ul class="nav navbar-nav navbar-left">
 		<li ng-repeat="button in buttons">
         	<button  type="button" class="customButton" ng-click="button.action();" data-intro="{{button.helpText}}">{{button.text}}</button>
         </li>
+	</ul>
+    <ul class="nav navbar-nav navbar-right">
         <li ng-show="showHelpButton">
-        	<button  type="button" class="customButton" onclick="introJs().start();">Help</button>
+            <button  type="button" class="customButton" onclick="introJs().start();">Help</button>
         </li>
         <li ng-show="showLogOutButton">
-        	<button  type="button" class="customButton" ng-click="logOut();">Log out</button>
+            <button  type="button" class="customButton" ng-click="logOut();">Log out</button>
         </li>
-	</ul>
+    </ul>
 </div>
