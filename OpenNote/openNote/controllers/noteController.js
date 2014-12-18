@@ -172,7 +172,6 @@ $(function(){
     setInterval(function(){
         $('iframe').add(window).each(function(i,w){
             w = w.contentWindow || w;
-            console.log(w);
             w.onkeydown = function(e){
                 if ((e.keyCode == 83) && e.ctrlKey){ // CTRL + S:
                     //save to the server;
@@ -185,5 +184,5 @@ $(function(){
                 }
             }
         })
-    }, 1000);
+    }, 3000);
 });
